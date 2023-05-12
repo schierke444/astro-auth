@@ -1,0 +1,1 @@
+import{a,c as s}from"./QueryProviderHoc.92946f15.js";const n=async t=>(await a.post("/Auth/login",t,{headers:{"Content-Type":"application/json"},withCredentials:!0})).data,r=async()=>(await s.post("/Auth/logout",{})).data;export{r as a,n as l};

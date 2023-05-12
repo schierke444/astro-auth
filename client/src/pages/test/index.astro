@@ -1,0 +1,11 @@
+---
+import Layout from "../../components/layouts/Layout.astro";
+
+const res = await fetch('http://localhost:5243/api/v1/Test')
+const data = await res.json();
+
+---
+
+<Layout title="Test Page">
+<p>{data.message}</p>
+</Layout>

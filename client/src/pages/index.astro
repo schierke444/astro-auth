@@ -1,0 +1,11 @@
+---
+import Layout from "../components/layouts/Layout.astro";
+import ClientLogin from "../feature/Auth/components/ClientLogin";
+import LoginUser from "../feature/Auth/components/LoginUser";
+---
+
+<Layout title="Login">
+	<div class="mt-[50px]">
+		<LoginUser client:load />
+	</div>
+</Layout>

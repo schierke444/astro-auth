@@ -1,0 +1,10 @@
+---
+import Layout from "../components/layouts/Layout.astro";
+import ClientLogin from "../feature/Auth/components/ClientLogin";
+import LoginUser from "../feature/Auth/components/LoginUser";
+---
+
+<Layout title="Login">
+	<!-- <TestForm client:load /> -->
+	<LoginUser client:load />
+</Layout>
